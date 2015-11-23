@@ -11,7 +11,7 @@
 @implementation NSArray(KVCCustom)
 
 /**
- * Here's where the real magic happens: apparently KVC words by blindly forwarding to messages
+ * Here's where the real magic happens: apparently KVC works by blindly forwarding to messages
  * with the format {operator}ForKeyPath: within the class. Package custom operators as an 
  * NSArray/NSSet category and voila...
  */
