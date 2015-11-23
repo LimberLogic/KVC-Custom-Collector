@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4055712B1C02D6DB00941675 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055712A1C02D6DB00941675 /* AppDelegate.m */; };
+		4055712E1C02D6DB00941675 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055712D1C02D6DB00941675 /* main.m */; };
+		405571301C02D6DB00941675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4055712F1C02D6DB00941675 /* Assets.xcassets */; };
+		405571331C02D6DB00941675 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405571311C02D6DB00941675 /* MainMenu.xib */; };
+		4055713E1C02D81900941675 /* KVCWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055713D1C02D81900941675 /* KVCWord.m */; settings = {ASSET_TAGS = (); }; };
+		405571431C02EEF700941675 /* NSArray+KVCCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 405571421C02EEF700941675 /* NSArray+KVCCustom.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		405571261C02D6DB00941675 /* Custom Collection Operator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Collection Operator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405571291C02D6DB00941675 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4055712A1C02D6DB00941675 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4055712D1C02D6DB00941675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4055712F1C02D6DB00941675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		405571321C02D6DB00941675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		405571341C02D6DB00941675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4055713C1C02D81900941675 /* KVCWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVCWord.h; sourceTree = "<group>"; };
+		4055713D1C02D81900941675 /* KVCWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVCWord.m; sourceTree = "<group>"; };
+		405571411C02EEF700941675 /* NSArray+KVCCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KVCCustom.h"; sourceTree = "<group>"; };
+		405571421C02EEF700941675 /* NSArray+KVCCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KVCCustom.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405571231C02D6DB00941675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4055711D1C02D6DB00941675 = {
+			isa = PBXGroup;
+			children = (
+				405571281C02D6DB00941675 /* Custom Collection Operator */,
+				405571271C02D6DB00941675 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		405571271C02D6DB00941675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405571261C02D6DB00941675 /* Custom Collection Operator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405571281C02D6DB00941675 /* Custom Collection Operator */ = {
+			isa = PBXGroup;
+			children = (
+				405571291C02D6DB00941675 /* AppDelegate.h */,
+				4055712A1C02D6DB00941675 /* AppDelegate.m */,
+				4055713C1C02D81900941675 /* KVCWord.h */,
+				4055713D1C02D81900941675 /* KVCWord.m */,
+				405571411C02EEF700941675 /* NSArray+KVCCustom.h */,
+				405571421C02EEF700941675 /* NSArray+KVCCustom.m */,
+				4055712F1C02D6DB00941675 /* Assets.xcassets */,
+				405571311C02D6DB00941675 /* MainMenu.xib */,
+				405571341C02D6DB00941675 /* Info.plist */,
+				4055712C1C02D6DB00941675 /* Supporting Files */,
+			);
+			path = "Custom Collection Operator";
+			sourceTree = "<group>";
+		};
+		4055712C1C02D6DB00941675 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4055712D1C02D6DB00941675 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405571251C02D6DB00941675 /* Custom Collection Operator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405571371C02D6DB00941675 /* Build configuration list for PBXNativeTarget "Custom Collection Operator" */;
+			buildPhases = (
+				405571221C02D6DB00941675 /* Sources */,
+				405571231C02D6DB00941675 /* Frameworks */,
+				405571241C02D6DB00941675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom Collection Operator";
+			productName = "Custom Collection Operator";
+			productReference = 405571261C02D6DB00941675 /* Custom Collection Operator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4055711E1C02D6DB00941675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Limber Logic";
+				TargetAttributes = {
+					405571251C02D6DB00941675 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 405571211C02D6DB00941675 /* Build configuration list for PBXProject "Custom Collection Operator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4055711D1C02D6DB00941675;
+			productRefGroup = 405571271C02D6DB00941675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405571251C02D6DB00941675 /* Custom Collection Operator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		405571241C02D6DB00941675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405571301C02D6DB00941675 /* Assets.xcassets in Resources */,
+				405571331C02D6DB00941675 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405571221C02D6DB00941675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4055712E1C02D6DB00941675 /* main.m in Sources */,
+				405571431C02EEF700941675 /* NSArray+KVCCustom.m in Sources */,
+				4055712B1C02D6DB00941675 /* AppDelegate.m in Sources */,
+				4055713E1C02D81900941675 /* KVCWord.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		405571311C02D6DB00941675 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405571321C02D6DB00941675 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		405571351C02D6DB00941675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		405571361C02D6DB00941675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		405571381C02D6DB00941675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Custom Collection Operator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tildeslash.Custom-Collection-Operator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		405571391C02D6DB00941675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Custom Collection Operator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.tildeslash.Custom-Collection-Operator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		405571211C02D6DB00941675 /* Build configuration list for PBXProject "Custom Collection Operator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405571351C02D6DB00941675 /* Debug */,
+				405571361C02D6DB00941675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405571371C02D6DB00941675 /* Build configuration list for PBXNativeTarget "Custom Collection Operator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405571381C02D6DB00941675 /* Debug */,
+				405571391C02D6DB00941675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4055711E1C02D6DB00941675 /* Project object */;
+}
